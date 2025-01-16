@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="998def0c-20f6-444a-b358-1cfdb57732c5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IM6arKWrEMR9G2Gk65USgrySLi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/nas/PycharmProjects/AuditGenerator/audit-generator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "/home/nas/.var/app/com.jetbrains.PyCharm-Professional/config/JetBrains/PyCharm2022.3/node/node-v16.16.0-linux-x64/bin/npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "ts.external.directory.path": "/home/nas/PycharmProjects/AuditGenerator/audit-generator/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v18.12.1/bin/node" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="998def0c-20f6-444a-b358-1cfdb57732c5" name="Changes" comment="" />
+      <created>1669979171479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669979171479</updated>
+      <workItem from="1669979172680" duration="4203000" />
+      <workItem from="1669984136604" duration="3450000" />
+      <workItem from="1670044435957" duration="23134000" />
+      <workItem from="1670346735954" duration="3793000" />
+      <workItem from="1671089934244" duration="78000" />
+      <workItem from="1671090020307" duration="43000" />
+      <workItem from="1671090349206" duration="699000" />
+      <workItem from="1671091406432" duration="600000" />
+      <workItem from="1671092015452" duration="3006000" />
+      <workItem from="1671096506281" duration="3772000" />
+      <workItem from="1671101349732" duration="11708000" />
+      <workItem from="1671171547683" duration="13100000" />
+      <workItem from="1671188805859" duration="204000" />
+      <workItem from="1671190441715" duration="589000" />
+      <workItem from="1671191498117" duration="196000" />
+      <workItem from="1671191928415" duration="5652000" />
+      <workItem from="1671387758205" duration="6052000" />
+      <workItem from="1671448651402" duration="1927000" />
+      <workItem from="1671451368692" duration="673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

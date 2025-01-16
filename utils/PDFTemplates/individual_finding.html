@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        height: 297mm;
+        width: 210mm;
+        border: 1px solid black;
+        font-family: "Manrope", sans-serif;
+      }
+
+      .container {
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      header {
+        display: flex;
+        max-width: 100vw;
+        width: 95%;
+        justify-content: space-between;
+        border-bottom: 0.5px solid #d2d1d1;
+      }
+
+      header img {
+        transform: translate(-65px, 0px) scale(0.5, 0.5);
+      }
+
+      .infoSection {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 95%;
+      }
+
+      .basicInfo h1 {
+        font-size: 20px;
+      }
+
+      .basicInfo p {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-weight: 600;
+      }
+
+      .heading h3 {
+        font-weight: 300;
+      }
+
+      .columnSection {
+        margin-top: 25px;
+        display: flex;
+      }
+
+      .columnSection div {
+        width: 40%;
+        height: 5vh;
+        border-left-width: 1px;
+      }
+
+      .columnSection p {
+        font-size: 16px;
+      }
+
+
+      .cardSection {
+        width: 95%;
+        padding-top: 10px;
+      }
+
+      .card {
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+        height: 7vh;
+        border-radius: 10px;
+        background-color: #efefef;
+        display: flex;
+      }
+
+      .card .contract {
+        font-weight: 600;
+        width: 12%;
+        padding-left: 20px;
+        padding-right: 0px;
+      }
+
+      .card .location {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 50%;
+        font-size: 15px;
+        border-left: 2px solid #d9d9d9;
+        padding-left: 10px;
+      }
+
+      .card .location p {
+        padding-left: 12px;
+      }
+
+      .card .location .function {
+        font-family: "Roboto Mono";
+        font-style: normal;
+        font-weight: 600;
+        opacity: 0.6;
+        background-color: #b4b7bd;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 5px;
+      }
+
+      .card .classification {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 13%;
+        font-weight: 600;
+        background-color: #eadfb7;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      .classificationBall {
+        width: 12px;
+        height: 12px;
+        background-color: #cea921;
+        border-radius: 50%;
+      }
+
+      .todoIcon {
+        width: 12px;
+        height: 12px;
+      }
+
+      .card .status {
+        width: 13%;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #d7e8e3;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    </style>
+    <title>XP Network</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="../assets//logo.svg" alt="Safepress Logo" />
+        <h4>www.safepress.com</h4>
+      </header>
+      <hr />
+
+      <section class="infoSection">
+        <section class="basicInfo">
+          <h1>Findings : <b>XPSOL-01</b></h1>
+          <p>Improper implementation for enforcing uniqueness.</p>
+        </section>
+      </section>
+
+      <section class="cardSection">
+        <div class="card">
+          <div class="contract">XPSOL-01</div>
+          <div class="location">
+            <p>Function</p>
+            <p class="function">create_action</p>
+            <p>Lines 41-42</p>
+          </div>
+          <div class="classification">
+            <div class="classificationBall"></div>
+            MEDIUM
+          </div>
+          <div class="status">
+            <img
+              class="todoIcon"
+              src="../assets/todo_icon_fixed.png"
+              alt="fixed"
+            />FIXED
+          </div>
+        </div>
+      </section>
+
+      <section class="infoSection">
+        <section class="basicInfo">
+          <h1>Description</h1>
+          <p>
+            There is no need for the function create_action to ensure uniqueness
+            of the . PDA’s created with , seeds and enforce uniqueness.
+          </p>
+        </section>
+      </section>
+
+      <section class="infoSection">
+        <section class="basicInfo">
+          <h1>Recommendation</h1>
+          <p>
+            The implementation using can be changed. The function should be
+            removed since Solana - Anchor will automatically ensure that the is
+            unique. This is because is being used as seed value to calculate the
+            PDA and since PDA’s are deterministically calculated, uniqueness can
+            automatically be enforced.
+          </p>
+        </section>
+      </section>
+
+    </div>
+  </body>
+</html>
